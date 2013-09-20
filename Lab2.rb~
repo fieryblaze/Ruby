@@ -98,7 +98,7 @@ print rps_game_winner([["Armando", "s"], ["Dave", "p"]])
 # Part 3B Tournament
 
 def rps_tournament_winner(tourney)
-	if tourney.size == 1
+	if tourney[0].is_a? String
 		return tourney;
 	end
 	if tourney[0][0].is_a? String

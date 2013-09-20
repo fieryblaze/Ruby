@@ -18,9 +18,9 @@ def palindrome?(string)
 	sDown = sSub.downcase()
 	sRev = sDown.reverse()
 	if /#{sDown}/.match(sRev)
-		return true#puts "\"#{string}\" is a Palindrome!!"
+		return true
 	else
-		return false#puts "\"#{string}\" is NOT a palindrome. \:\("
+		return false
 	end	
 end
 
